@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="az-aze">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap">
+    <style>
+        body {
+            background: #000;
+            font-family: 'Roboto', sans-serif;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 97vh;
+            width: 100%;
+            flex-direction: column; 
+        }
+        .text {
+            color: white;
+            font-size: 60px;
+            letter-spacing: 10px;
+            margin-bottom: 20px;
+            animation: animasiya 3s ease;
+            position: relative;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+        }
+        .lig {
+            display: flex;
+            color: white;
+            font-size: 30px;
+            letter-spacing: 4px;
+        }
+        .lig a {
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.4s;
+        }
+        .lig a:hover {
+            color: yellow;
+            font-size: 40px;
+            transition: 0.4s;
+        }
+        @keyframes animasiya {
+            0% {
+                margin-bottom: -200px;
+                letter-spacing: 20px;
+            }
+            30% {
+                margin-bottom: -200px;
+                letter-spacing: 50px;
+            }
+            90% {
+                margin-bottom: -200px;
+                letter-spacing: 20px;
+            }
+        }        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">WHICH LEAGUE?</div>
+        <div class="lig lig1"><a href="laliga.html"> LALIGA </a></div>
+        <div class="lig lig2"><a href="premier.html"> Premier League </a></div>
+        <div class="lig lig3"><a href="serieA.html"> Serie A </a></div>
+        <div class="lig lig4"><a href="bundesliga.html"> Bundesliga </a></div>
+        <div class="lig lig5"><a href="turkishleague.html"> Turkish Super League </a></div>
+    </div>   
+</body>
+</html>

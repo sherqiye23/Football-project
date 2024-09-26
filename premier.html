@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier League</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+      body {
+        background-color: silver;
+      }
+    
+      .con {
+        display: flex;
+        position: absolute;
+      }
+      .con2 {
+        margin-top: 300px;
+        padding-bottom: 300px;
+        display: flex;
+        position: absolute;
+      }
+
+      .container {
+        position: relative;
+        left: 25%;
+        width: 300px;
+        height: 300px;
+        transform: translate(-50%, 50%);
+      }
+
+      img {
+        border-radius: 10px;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        transition: all 0.7s ease-in-out;
+      }
+
+      p {
+        border-radius: 10px;
+        margin: 0;
+        position: 0;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        transition: all 0.7s ease-in-out;
+        background: #7c79b0;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        padding: 25px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        line-height: 27px;
+        transform: scale(0);
+      }
+
+      .container:hover p {
+        transform: scale(1);
+      }
+
+      .container:hover img {
+        transform: scale(0);
+      }
+
+      .container p a {
+        font-size: 30px;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .container p a:hover {
+        color: #00bbff;
+      }
+
+
+    </style>
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Premier League</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+            <li class="nav-item active">
+              <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                About
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Settings</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+
+      <div class="bg">
+        <div class="con">
+
+            <div class="container">
+                <img src="premier league/mancity.png">
+                <p><a target="_blank" href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwNDM2qTBg9OLITcxTSM4sqQQAOm8F7Q&q=man+city&rlz=1C1GCEA_enAZ1027AZ1027&oq=man&gs_lcrp=EgZjaHJvbWUqDAgCEC4YQxiABBiKBTIGCAAQRRg7MgYIARBFGDsyDAgCEC4YQxiABBiKBTIGCAMQRRg5MgwIBBAuGEMYgAQYigUyDAgFEAAYQxiABBiKBTIGCAYQRRg9MgYIBxAFGEDSAQgyNTE1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">Manchester City</a><br>Manchester şəhərində yerləşir və 1880-ci ildə qurulub. <br>Son illərdə İngiltərə Premyer Liqasında dominantlıq edir və UEFA Çempionlar Liqası qalibidir (2021-2022 mövsümü).</p>
+              </div>
+              <div class="container">
+                <img src="premier league/arsenal.png">
+                <p><a target="_blank" href="https://www.google.com/search?gs_ssp=eJzjYtfP1TeoSMo1YPRiTywqTs1LzAEAMtwFvA&q=arsenal&rlz=1C1GCEA_enAZ1027AZ1027&oq=arse&gs_lcrp=EgZjaHJvbWUqDAgBEC4YQxiABBiKBTIGCAAQRRg7MgwIARAuGEMYgAQYigUyBggCEEUYOTIGCAMQIxgnMgYIBBAjGCcyDAgFEAAYQxiABBiKBTIMCAYQABhDGIAEGIoFMgwIBxAAGEMYgAQYigUyDAgIEAAYQxiABBiKBTIMCAkQABhDGIAEGIoF0gEIMjUwOGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">Arsenal</a><br><br>Londonda yerləşir və 1886-cı ildə qurulub. <br>Qırmızı və ağ rənglərə sahibdir. <br>13 dəfə İngiltərə Premyer Liqası çempionu və 14 dəfə FA Kuboku qalibidir.</p>
+              </div>
+              <div class="container">
+                <img src="premier league/liverpool.png">
+                <p><a target="_blank" href="https://www.google.com/search?gs_ssp=eJzj4tDP1TcwySlJM2D04szJLEstKsjPzwEARL4G6A&q=liverpool&rlz=1C1GCEA_enAZ1027AZ1027&oq=liverpool&gs_lcrp=EgZjaHJvbWUqDAgBEC4YQxiABBiKBTIGCAAQRRg7MgwIARAuGEMYgAQYigUyDAgCEAAYQxiABBiKBTIMCAMQABhDGIAEGIoFMgwIBBAAGEMYgAQYigUyDAgFEAAYQxiABBiKBTIMCAYQABhDGIAEGIoFMgwIBxAAGEMYgAQYigUyDAgIEAAYQxiABBiKBTIHCAkQABiPAtIBCDM2NDZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">Liverpool</a><br><br>Liverpool şəhərində yerləşir və 1892-ci ildə qurulub. <br>Qırmızı rəngə sahibdir. <br>19 dəfə İngiltərə Premyer Liqası çempionu və 6 dəfə UEFA Çempionlar Liqası qalibidir.</p>
+              </div>
+              <div class="container">
+                <img src="premier league/astonvilla.png">
+                <p><a target="_blank" href="https://www.google.com/search?gs_ssp=eJzj4tDP1TdIyrHIMWD04k4sLsnPUyjLzMlJBABR5Qdj&q=aston+villa&rlz=1C1GCEA_enAZ1027AZ1027&oq=aston&gs_lcrp=EgZjaHJvbWUqDAgCEC4YQxiABBiKBTIJCAAQRRg7GIAEMg0IARAuGMcBGNEDGIAEMgwIAhAuGEMYgAQYigUyBggDEEUYOTIMCAQQABhDGIAEGIoFMgwIBRAAGEMYgAQYigUyDAgGEAAYQxiABBiKBTIMCAcQABhDGIAEGIoFMg0ICBAuGK8BGMcBGIAEMgcICRAAGI8C0gEINDA4M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8">Aston Villa</a><br>Birmingham şəhərində yerləşir və 1874-cü ildə qurulub. <br>Qırmızı və mavi rənglərə sahibdir. <br>7 dəfə İngiltərə çempionu və 1981-1982 mövsümündə UEFA Çempionlar Liqası qalibidir.</p>
+              </div>
+
+        </div>
+
+
+        <div class="con2">
+
+          <div class="container">
+            <img src="premier league/tottenham.png">
+            <p><a target="_blank" href="https://www.google.com/search?gs_ssp=eJzj4tDP1TfIKMsqMmD04izJLylJzctIzAUASS8HIA&q=tottenham&rlz=1C1GCEA_enAZ1027AZ1027&oq=tott&gs_lcrp=EgZjaHJvbWUqDAgBEC4YQxiABBiKBTIGCAAQRRg7MgwIARAuGEMYgAQYigUyBggCEEUYOTIMCAMQABhDGIAEGIoFMgwIBBAAGEMYgAQYigUyDAgFEAAYQxiABBiKBTIHCAYQLhiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiPAtIBCDMxMDNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">Tottenham</a><br><br>Londonda yerləşir və 1882-ci ildə qurulub. <br>Ağ və dəniz mavisi rənglərə sahibdir. <br>2 dəfə İngiltərə çempionu və 8 dəfə FA Kuboku qalibidir.</p>
+          </div>
+          <div class="container">
+            <img src="premier league/chelsea.png">
+            <p><a target="_blank" href="https://www.google.com/search?gs_ssp=eJzj4tDP1TcwMk5LMmD0Yk_OSM0pTk0EADKJBZI&q=chelsea&rlz=1C1GCEA_enAZ1027AZ1027&oq=che&gs_lcrp=EgZjaHJvbWUqDAgDEC4YQxiABBiKBTIGCAAQRRg7MgYIARBFGDkyDAgCEC4YJxiABBiKBTIMCAMQLhhDGIAEGIoFMgwIBBAAGEMYgAQYigUyDAgFEAAYQxiABBiKBTIMCAYQABhDGIAEGIoFMgYIBxBFGDzSAQgzNDI1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">Chelsea</a><br>Londonda yerləşir və 1905-ci ildə qurulub. <br>Mavi və ağ rənglərə sahibdir. <br>6 dəfə İngiltərə Premyer Liqası çempionu və 2 dəfə UEFA Çempionlar Liqası qalibidir.</p>
+          </div>
+          <div class="container">
+            <img src="premier league/newcastle_united.png">
+            <p><a target="_blank" href="https://www.google.com/search?gs_ssp=eJzj4tDP1TdIK8upNGD0EshLLU9OLC7JSVUozcssSU0BAIUACck&q=newcastle+united&rlz=1C1GCEA_enAZ1027AZ1027&oq=newcastle+uni&gs_lcrp=EgZjaHJvbWUqBwgBEC4YgAQyBggAEEUYOTIHCAEQLhiABDIHCAIQLhiABDIHCAMQLhiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiPAtIBCTExNjc3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">Newcastle United</a><br>Newcastle upon Tyne şəhərində yerləşir və 1892-ci ildə qurulub. <br>Qara və ağ rənglərə sahibdir. <br>4 dəfə İngiltərə çempionu və 6 dəfə FA Kuboku qalibidir.</p>
+          </div>
+          <div class="container">
+            <img src="premier league/manu.png">
+            <p><a target="_blank" href="https://www.google.com/search?gs_ssp=eJzj4tDP1TcwNUjLMGD04spNzFMozcssSU0BAET5Bqs&q=man+united&rlz=1C1GCEA_enAZ1027AZ1027&oq=man&gs_lcrp=EgZjaHJvbWUqDAgFEC4YQxiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMgwIARAuGCcYgAQYigUyBggCEEUYOzIGCAMQRRg7MgYIBBBFGDkyDAgFEC4YQxiABBiKBTIMCAYQABhDGIAEGIoFMgYIBxBFGD3SAQgyMjI4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">Manchester United</a><br>Manchester şəhərində yerləşir və 1878-ci ildə qurulub (Manchester United adı ilə 1902). <br>20 dəfə İngiltərə çempionu və 3 dəfə UEFA Çempionlar Liqası qalibidir.</p>
+          </div>
+
+        </div>
+      </div>
+
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LALIGA</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+      body {
+        background-color: silver;
+      }
+    
+      .con {
+        display: flex;
+        position: absolute;
+      }
+      .con2 {
+        margin-top: 300px;
+        padding-bottom: 300px;
+        display: flex;
+        position: absolute;
+      }
+
+      .container {
+        position: relative;
+        left: 25%;
+        width: 300px;
+        height: 300px;
+        transform: translate(-50%, 50%);
+      }
+
+      img {
+        border-radius: 10px;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        transition: all 0.7s ease-in-out;
+      }
+
+      p {
+        border-radius: 10px;
+        margin: 0;
+        position: 0;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        transition: all 0.7s ease-in-out;
+        background: #7c79b0;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        padding: 25px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        line-height: 27px;
+        transform: scale(0);
+      }
+
+      .container:hover p {
+        transform: scale(1);
+      }
+
+      .container:hover img {
+        transform: scale(0);
+      }
+
+      .container p a {
+        font-size: 30px;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .container p a:hover {
+        color: #00bbff;
+      }
+
+
+    </style>
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">LALIGA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+            <li class="nav-item active">
+              <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                About
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Settings</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+
+      <div class="bg">
+        <div class="con">
+
+            <div class="container">
+                <img src="laliga/realmadrid.png">
+                <p><a target="_blank" href="https://www.google.com/search?q=real+madrid&sca_esv=cac444c9b2573efe&sxsrf=ADLYWIKM9fYRHzQ_QRw2jFCyRnm0oS2aBg%3A1716048370632&source=hp&ei=8tFIZvyPJP7dxc8Py5aE4A0&iflsig=AL9hbdgAAAAAZkjgAq6DTnqCucMiWWq8Q9L4OtMFEOo3&udm=&gs_ssp=eJzj4tDP1TcwyzEyMmD04i5KTcxRyE1MKcpMAQBJRQbP&oq=real&gs_lp=Egdnd3Mtd2l6IgRyZWFsKgIIATIKECMYgAQYJxiKBTIKEC4YgAQYJxiKBTIFEAAYgAQyBRAAGIAEMgUQLhiABDIFEC4YgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyCxAuGIAEGMcBGK8BSKMPUABYsANwAHgAkAEAmAHJAaAB-wWqAQUwLjIuMrgBAcgBAPgBAZgCBKACkQbCAgQQIxgnwgIMECMYgAQYExgnGIoFmAMAkgcFMC4yLjKgB745&sclient=gws-wiz">Real Madrid</a><br><br>Madrid şəhərində yerləşir və 1902-ci ildə qurulub. <br>Ağ rəngə sahibdir. <br>UEFA Çempionlar Liqasının ən çox qalibi olan klubdur.</p>
+              </div>
+              <div class="container">
+                <img src="laliga/barcelona.png">
+                <p><a target="_blank" href="https://www.google.com/search?q=barcelona&sca_esv=cac444c9b2573efe&sxsrf=ADLYWIKmb5RcU_271wtAwToEozcDpryVew%3A1716048382758&ei=_tFIZr7wLdWqxc8PusCrwA8&udm=&gs_ssp=eJzj4tDP1TfIKEsvMWD04kxKLEpOzcnPSwQAR7MG8g&oq=barce&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWJhcmNlKgIIADIKEC4YgAQYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIKEC4YgAQYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIFEAAYgAQyBRAAGIAEMhkQLhiABBhDGIoFGJcFGNwEGN4EGOAE2AEBSM4jUABY-RBwAHgBkAEAmAGDAqABxAiqAQUwLjEuNLgBAcgBAPgBAZgCBqACtxPCAgoQLhiABBgnGIoFwgIKECMYgAQYJxiKBcICFxAuGIAEGIoFGJcFGNwEGN4EGOAE2AEBwgIMECMYgAQYExgnGIoFmAMAugYGCAEQARgUkgcHMi01LjctMaAH8FA&sclient=gws-wiz-serp">Barcelona</a><br> Barselona şəhərində yerləşir və 1899-cu ildə qurulub. <br> Göy və qırmızı rənglərə sahibdir. <br> Çox sayda LaLiga və UEFA Çempionlar Liqası çempionluğu var.</p>
+              </div>
+              <div class="container">
+                <img src="laliga/Girona.png">
+                <p><a target="_blank" href="https://www.google.com/search?q=girona+fc&sca_esv=cac444c9b2573efe&sxsrf=ADLYWIKehl74sZZWk2ZihMtg51ljGROlTw%3A1716048405072&ei=FdJIZqn1A5WExc8PvsmP-A0&udm=&gs_ssp=eJzj4tTP1TdILrYoTjJg9OJMzyzKz0tUSEsGAEwcBt8&oq=gir&gs_lp=Egxnd3Mtd2l6LXNlcnAiA2dpcioCCAAyChAuGIAEGEMYigUyChAAGIAEGEMYigUyChAuGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyBRAAGIAEMgUQLhiABDIFEC4YgAQyGRAuGIAEGEMYigUYlwUY3AQY3gQY4ATYAQFI7BlQAFiXBXAAeAGQAQCYAeQBoAHyBKoBBTAuMS4yuAEByAEA-AEBmAIFoAKgJsICChAjGIAEGCcYigXCAgoQLhiABBgnGIoFwgILEC4YgAQY0QMYxwGYAwC6BgYIARABGBSSBwswLjEuMi43LTEuMaAHryw&sclient=gws-wiz-serp">Girona</a><br><br>Girona şəhərində yerləşir və 1930-cu ildə qurulub. <br>Qırmızı və ağ rənglərə sahibdir. <br>Son illərdə La Liga'da çıxış edir.</p>
+              </div>
+              <div class="container">
+                <img src="laliga/atleticomadrid.png">
+                <p><a target="_blank" href="https://www.google.com/search?q=atletico+madrid&sca_esv=cac444c9b2573efe&sxsrf=ADLYWILkvx3dfcpIv4r4sxA7n6-8r4CgBg%3A1716048432511&ei=MNJIZtbkHuaFxc8PlY2rmAU&udm=&oq=atlet&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWF0bGV0KgIIADIPEC4YgAQYQxhGGIoFGP0BMgoQABiABBhDGIoFMgoQABiABBhDGIoFMgoQABiABBhDGIoFMgoQLhiABBhDGIoFMgoQABiABBhDGIoFMgoQLhiABBhDGIoFMgoQLhiABBhDGIoFMgwQLhiABBhDGIoFGAoyBRAAGIAEMhsQABiABBhDGEYYigUY_QEYlwUYjAUY3QTYAQJIrR1QAFigCHAAeAGQAQCYAZACoAHrCaoBAzItNbgBAcgBAPgBAZgCBqAC8BrCAgoQLhiABBgnGIoFwgIEECMYJ8ICChAjGIAEGCcYigXCAhcQLhiABBiKBRiXBRjcBBjeBBjgBNgBAcICCxAuGIAEGNEDGMcBwgIFEC4YgATCAhkQLhiABBhDGIoFGJcFGNwEGN4EGOAE2AEBmAMAugYGCAEQARgUugYGCAIQARgTkgcHMi01LjgtMaAHplc&sclient=gws-wiz-serp">Atletico Madrid</a><br><br>Madrid şəhərində yerləşir və 1903-cü ildə qurulub. <br>Qırmızı və ağ rənglərə sahibdir. <br>La Liga çempionluğu və UEFA Avropa Liqası qalibiyyətləri var.</p>
+              </div>
+
+        </div>
+
+
+        <div class="con2">
+
+          <div class="container">
+            <img src="laliga/atleticbilbao.png">
+            <p><a target="_blank" href="https://www.google.com/search?q=athletic+bilbao&sca_esv=cac444c9b2573efe&sxsrf=ADLYWIIYACbvXQul29hiowa6BwNe3DojuA%3A1716048453015&ei=RdJIZpM9rJTFzw-ewoWwCg&udm=&gs_ssp=eJzj4tDP1TfILi8zMmD04k8sychJLclMVkjKzElKzAcAdW0I-Q&oq=atleticb&gs_lp=Egxnd3Mtd2l6LXNlcnAiCGF0bGV0aWNiKgIIADIKEC4YgAQYQxiKBTIKEAAYgAQYQxiKBTIKEC4YgAQYQxiKBTIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIKEAAYgAQYQxiKBTIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIZEC4YgAQYQxiKBRiXBRjcBBjeBBjgBNgBAkjMIVCPBVjSE3ABeAGQAQCYAdEBoAGGCaoBBTAuNC4yuAEByAEA-AEBmAIFoAKVEsICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgITEC4YgAQYsAMYQxjIAxiKBdgBAcICGRAuGIAEGLADGEMYxwEYyAMYigUYrwHYAQHCAgUQABiABMICDxAuGIAEGEMYRhiKBRj9AcICGxAAGIAEGEMYRhiKBRj9ARiXBRiMBRjdBNgBA5gDAIgGAZAGEboGBggBEAEYCLoGBggCEAEYFLoGBggDEAEYE5IHCTEuMS4yLjctMaAH9DU&sclient=gws-wiz-serp">Atletic Bilbao</a><br> Bilbao şəhərində yerləşir və 1898-ci ildə qurulub. <br>Qırmızı və ağ rənglərə sahibdir. <br>Yerli bask futbolçularına üstünlük verir və bir çox La Liga və Copa del Rey çempionluğu var.</p>
+          </div>
+          <div class="container">
+            <img src="laliga/realsociedad.png">
+            <p><a target="_blank" href="https://www.google.com/search?q=real+sociedad&sca_esv=cac444c9b2573efe&sxsrf=ADLYWIJ_d0M7LODSvxyM2E1u9kowGYkQlg%3A1716048475307&ei=W9JIZu2pErCSxc8Ph-iikAs&udm=&gs_ssp=eJzj4tTP1TcwNDIqTzZg9OItSk3MUSjOT85MTUlMAQBhiAgG&oq=real+so&gs_lp=Egxnd3Mtd2l6LXNlcnAiB3JlYWwgc28qAggAMgUQLhiABDIFEAAYgAQyBRAAGIAEMgUQLhiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIUEC4YgAQYlwUY3AQY3gQY4ATYAQFI7RxQAFi2EXAAeAGQAQCYAZgCoAGRDKoBBTAuMy40uAEDyAEA-AEBmAIIoAL0F8ICChAuGIAEGCcYigXCAgoQIxiABBgnGIoFwgIEECMYJ8ICDBAjGIAEGBMYJxiKBcICChAuGIAEGEMYigXCAhcQLhiABBiKBRiXBRjcBBjeBBjgBNgBAcICChAAGIAEGEMYigWYAwC6BgYIARABGBSSBwcyLTcuNy0xoAfkbQ&sclient=gws-wiz-serp">Real Sociedad</a><br><br>San Sebastian şəhərində yerləşir və 1909-cu ildə qurulub. <br>Mavi və ağ rənglərə sahibdir. <br>La Liga və Copa del Rey çempionluqları var.</p>
+          </div>
+          <div class="container">
+            <img src="laliga/realbetis.png">
+            <p><a target="_blank" href="https://www.google.com/search?q=real+betis&sca_esv=cac444c9b2573efe&sxsrf=ADLYWIIXPopwDIcf8ONp8pL-mtUUlUHzNw%3A1716048497006&ei=cNJIZrn7POWqxc8Pi5mG0AQ&gs_ssp=eJzj4tTP1TcwTssrzDJg9OIqSk3MUUhKLcksBgBSFQdR&oq=real+be&gs_lp=Egxnd3Mtd2l6LXNlcnAiB3JlYWwgYmUqAggAMgUQLhiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIUEC4YgAQYlwUY3AQY3gQY4ATYAQJIxSZQjwdYgwpwAXgBkAEAmAHrAaABmwWqAQMyLTO4AQHIAQD4AQGYAgegApM4wgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAhMQLhiABBiwAxhDGMgDGIoF2AEBwgIZEC4YgAQYsAMYQxjHARjIAxiKBRivAdgBAcICChAuGIAEGCcYigXCAgoQIxiABBgnGIoFwgIKEC4YgAQYQxiKBcICChAAGIAEGEMYigXCAhcQLhiABBiKBRiXBRjcBBjeBBjgBNgBApgDAIgGAZAGEroGBggBEAEYCLoGBggCEAEYFJIHCzEuMC4zLjctMS4yoAfWHg&sclient=gws-wiz-serp">Real Betis</a><br><br>Sevilya şəhərində yerləşir və 1907-ci ildə qurulub. <br>Yaşıl və ağ rənglərə sahibdir. <br>La Liga və Copa del Rey çempionluqları var.</p>
+          </div>
+          <div class="container">
+            <img src="laliga/villarreal.png">
+            <p><a target="_blank" href="https://www.google.com/search?q=villarreal&sca_esv=cac444c9b2573efe&sxsrf=ADLYWIJ_0WyKtXX3rPspRzhYlFHTYpYHMw%3A1716048519940&ei=h9JIZvj7ONWSxc8Pw5-qoAM&udm=&gs_ssp=eJzj4tTP1TcwLknONjRg9OIqy8zJSSwqSk3MAQBRCQdo&oq=vill&gs_lp=Egxnd3Mtd2l6LXNlcnAiBHZpbGwqAggAMgoQLhiABBhDGIoFMgoQLhiABBhDGIoFMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyCxAuGIAEGNEDGMcBMgUQABiABDIFEAAYgAQyGRAuGIAEGEMYigUYlwUY3AQY3gQY4ATYAQFIqiBQAFi9B3AAeAGQAQCYAegBoAG6BqoBBTAuMi4yuAEByAEA-AEBmAIFoAKqFsICDBAjGIAEGBMYJxiKBcICChAjGIAEGCcYigXCAgQQIxgnwgINEC4YgAQYQxjUAhiKBcICEBAuGIAEGNEDGEMYxwEYigXCAgoQLhiABBgnGIoFwgIFEC4YgATCAhcQLhiABBiKBRiXBRjcBBjeBBjgBNgBAZgDALoGBggBEAEYFJIHCTAuMS4zLjctMaAHuVA&sclient=gws-wiz-serp">Villareal</a><br><br>Villarreal şəhərində yerləşir və 1923-cü ildə qurulub. <br>Sarı rəngə sahibdir. <br>2020-2021 mövsümündə UEFA Avropa Liqasını qazandı.</p>
+          </div>
+
+        </div>
+      </div>
+
+</body>
+</html>

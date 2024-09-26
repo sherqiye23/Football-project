@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bundesliga</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+      body {
+        background-color: silver;
+      }
+    
+      .con {
+        display: flex;
+        position: absolute;
+      }
+      .con2 {
+        margin-top: 300px;
+        padding-bottom: 300px;
+        display: flex;
+        position: absolute;
+      }
+
+      .container {
+        position: relative;
+        left: 25%;
+        width: 300px;
+        height: 300px;
+        transform: translate(-50%, 50%);
+      }
+
+      img {
+        border-radius: 10px;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        transition: all 0.7s ease-in-out;
+      }
+
+      p {
+        border-radius: 10px;
+        margin: 0;
+        position: 0;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        transition: all 0.7s ease-in-out;
+        background: #7c79b0;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        padding: 25px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        line-height: 27px;
+        transform: scale(0);
+      }
+
+      .container:hover p {
+        transform: scale(1);
+      }
+
+      .container:hover img {
+        transform: scale(0);
+      }
+
+      .container p a {
+        font-size: 30px;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .container p a:hover {
+        color: #00bbff;
+      }
+
+
+    </style>
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Bundesliga</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+            <li class="nav-item active">
+              <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                About
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Settings</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+
+      <div class="bg">
+        <div class="con">
+
+            <div class="container">
+                <img src="bundesliga/leverkusen.png">
+                <p><a target="_blank" href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwyqiqsDBg9BJISqxMLVLISS1LLcouLU7NAwCFtAnV&q=bayer+leverkusen&rlz=1C1GCEA_enAZ1027AZ1027&oq=bayer+&gs_lcrp=EgZjaHJvbWUqDAgCEC4YQxiABBiKBTIGCAAQRRg5MgYIARBFGDsyDAgCEC4YQxiABBiKBTIMCAMQABhDGIAEGIoFMgcIBBAAGIAEMgkIBRAuGAoYgAQyBggGEEUYPTIGCAcQRRg80gEINDg3MGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">Bayer Leverkusen</a><br>Leverkusen şəhərində yerləşir və 1904-cü ildə qurulub. Qırmızı və qara rənglərə sahibdir. <br>
+                  Çox sayda Bundesliga çempionluğu olmasa da, UEFA Kuboku (1998) qalibidir.</p>
+              </div>
+              <div class="container">
+                <img src="bundesliga/bayernmunich.png">
+                <p><a target="_blank" href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwNDctSjZg9GJLSqxMLcoDADIFBYM&q=bayern&rlz=1C1GCEA_enAZ1027AZ1027&oq=bayern&gs_lcrp=EgZjaHJvbWUqBwgBEC4YgAQyBggAEEUYOzIHCAEQLhiABDIHCAIQLhiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIGCAcQRRg90gEIMjY1MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">Bayern Munich</a><br>Münhen şəhərində yerləşir və 1900-cü ildə qurulub. <br>
+                  Qırmızı və ağ rənglərə sahibdir. <br>
+                  Almaniyanın ən uğurlu klubu, çox sayda Bundesliga və UEFA Çempionlar Liqası çempionluqları var.</p>
+              </div>
+              <div class="container">
+                <img src="bundesliga/stuttgart.png">
+                <p><a target="_blank" href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwNjcsSjJg9OIpLiktKUlPLCpRSEsGAFzsB-A&q=stuttgart+fc&rlz=1C1GCEA_enAZ1027AZ1027&oq=stuttgart+fc&gs_lcrp=EgZjaHJvbWUqDAgBEC4YQxiABBiKBTIHCAAQABiPAjIMCAEQLhhDGIAEGIoFMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEJMTQ0NDhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">Stuttgart</a><br><br>Stuttgart şəhərində yerləşir və 1893-cü ildə qurulub. <br>
+                  Qırmızı və ağ rənglərə sahibdir. <br>
+                  Bir neçə dəfə Bundesliga çempionu və DFB-Pokal qalibidir.</p>
+              </div>
+              <div class="container">
+                <img src="bundesliga/leipzig.png">
+                <p><a target="_blank" href="https://www.google.com/search?gs_ssp=eJzj4tLP1TcwM61KMy4wYPRiz0nNLKjKTAcAQT4GdA&q=leipzig&rlz=1C1GCEA_enAZ1027AZ1027&oq=leip&gs_lcrp=EgZjaHJvbWUqDAgBEC4YQxiABBiKBTIGCAAQRRg5MgwIARAuGEMYgAQYigUyDAgCEAAYQxiABBiKBTIHCAMQABiABDIHCAQQLhiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQLhiABDIHCAkQABiPAtIBCDI3MzVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">Leipzig</a><br>Leipzig şəhərində yerləşir və 2009-cu ildə qurulub. <br>
+                  Qırmızı və ağ rənglərə sahibdir. <br>
+                  Sürətli yüksəlişlə Bundesliga'da güclü bir mövqeyə sahib olub və DFB-Pokal qalibidir.</p>
+              </div>
+
+        </div>
+
+
+        <div class="con2">
+
+          <div class="container">
+            <img src="bundesliga/dortmund.png">
+            <p><a target="_blank" href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwLI9PMTNg9OJIyS8qyS3NSwEAQloGoA&q=dortmund&rlz=1C1GCEA_enAZ1027AZ1027&oq=dortm&gs_lcrp=EgZjaHJvbWUqDAgCEC4YQxiABBiKBTIGCAAQRRg7MgYIARBFGDkyDAgCEC4YQxiABBiKBTIMCAMQABhDGIAEGIoFMgwIBBAAGEMYgAQYigUyDAgFEAAYQxiABBiKBTIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiPAtIBCDMyNzNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">Borussia Dortmund</a><br><br>Dortmund şəhərində yerləşir və 1909-cu ildə qurulub. <br>
+              Bir çox Bundesliga çempionluğu və UEFA Çempionlar Liqası qalibidir(1997).</p>
+          </div>
+          <div class="container">
+            <img src="bundesliga/frankfurt.png">
+            <p><a target="_blank" href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwzkoyyjNg9BJOzcwrKUpMzihRSCtKzMtOKy0qAQCi1Qrx&q=eintracht+frankfurt&rlz=1C1GCEA_enAZ1027AZ1027&oq=Eintracht+Frankfurt&gs_lcrp=EgZjaHJvbWUqBwgBEC4YgAQyBwgAEAAYjwIyBwgBEC4YgAQyDAgCEEUYORjjAhiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDM1MDVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">Eintracht Frankfurt</a><br><br>Frankfurt şəhərində yerləşir və 1899-cu ildə qurulub. <br>
+              Qırmızı və qara rənglərə sahibdir. <br>
+              DFB-Pokal və UEFA Avropa Liqası qalibidir (2022).</p>
+          </div>
+          <div class="container">
+            <img src="bundesliga/hoffenheim.png">
+            <p><a target="_blank" href="https://www.google.com/search?q=hoffenheim&rlz=1C1GCEA_enAZ1027AZ1027&oq=hoffenheim+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQLhiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQLhiABDIHCAgQLhiABDIHCAkQABiABNIBCTE2ODQ2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">Hoffenheim</a><br>Sinsheim şəhərində yerləşir və 1899-cu ildə qurulub. <br>
+              Mavi və ağ rənglərə sahibdir. <br>
+              Bundesliga'da müvəffəqiyyətli bir klub olaraq tanınır, lakin əsas kubok qalibiyyətləri yoxdur.</p>
+          </div>
+          <div class="container">
+            <img src="bundesliga/freiburg.png">
+            <p><a target="_blank" href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwNcwzNDZg9OJIK0rNTCotSgcAO60GIA&q=freiburg&rlz=1C1GCEA_enAZ1027AZ1027&oq=freibur&gs_lcrp=EgZjaHJvbWUqDAgBEC4YQxiABBiKBTIGCAAQRRg7MgwIARAuGEMYgAQYigUyBggCEEUYQDIGCAMQRRg5MgwIBBAAGEMYgAQYigUyBwgFEC4YgAQyBwgGEAAYgAQyBwgHEAAYgATSAQgzNTY2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">Freiburg</a><br><br>Freiburg şəhərində yerləşir və 1904-cü ildə qurulub. <br>
+              Bundesliga'da müvəffəqiyyətli bir performans göstərir, lakin əsas kubok qalibiyyətləri yoxdur.</p>
+          </div>
+
+        </div>
+      </div>
+
+</body>
+</html>
